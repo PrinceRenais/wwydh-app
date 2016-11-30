@@ -108,26 +108,51 @@
 
     <div style="text-align:center;
     background: #418040;
-    background: -webkit-linear-gradient(left bottom, #80D080, #418040);
-    background: -o-linear-gradient(top right, #80D080, #418040);
-    background: -moz-linear-gradient(top right, #80D080,#418040);
-    background: linear-gradient(to top right, #80D080, #418040);
+    background: -webkit-linear-gradient(left top, #50A050, #114010);
+    background: -o-linear-gradient(bottom right, #70A050, #114010);
+    background: -moz-linear-gradient(bottom right, #50A050,#114010);
+    background: linear-gradient(to bottom right, #50A050, #114010);
     margin-top: 65px;
     width: 100%;
     height: 50%;
     min-height: 400px;">
-      Name and Stuff By Evan
-      <div style="margin-left: 85%;
+      <div>&nbsp;</div>
+      <div style="margin-left: 82%;
       text-alight:center;
       margin-top: 40px;
-      width: 180px;
+      width: 210px;
       height: 40px;
       background: #FFAE00;
       border-radius:4px;">
-        &nbsp;
+        <div>&nbsp;</div>
         <div style="margin-top: -34px">
-          <a href="..\plans" style="color:#FFFFFF;text-decoration:none;"><h3>SUGGEST A PLAN</h3></a>
+          <a href="..\projects" style="color:#FFFFFF;text-decoration:none;"><h3>SUGGEST A PROJECT</h3></a>
         </div>
+      </div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <center><div style="background-color: #FFFFFF;
+      border-radius: 50%;
+      width: 156px;
+      height:156px;
+      background-position: center;
+      margin-top: -50px;">
+        <div style="background-color: #FFFFFF;
+        width: 1px;
+        height: 3px;">
+        </div>
+        <div style="background-image: url(../helpers/user_images/<?php echo $_SESSION["user"]["image"] ?>);
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          background-position: center;
+          background-size: cover;">
+        </div>
+      </div></center>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div style="color: #ffffff; margin-top: -50px;">
+        <h1><?php echo $_SESSION["user"]["first"] ?> <?php echo $_SESSION["user"]["last"] ?></h1>
       </div>
     </div>
 <div id="profile">
