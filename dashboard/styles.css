@@ -196,6 +196,44 @@
     font-weight: 400 !important;
 }
 
+#sidebar .sidebar-separator {
+    background: #d5edd5;
+    width: 100%;
+    height: 1px;
+    opacity: 0.2;
+    margin: 25px 0px;
+}
+
+#sidebar .new-menu #new-menu-header {
+    color: #d5edd5;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#sidebar .new-menu .new-menu-link {
+    width: 100%;
+    padding: 10px;
+    color: #d5edd5;
+    border-radius: 1px;
+    border: 1px solid #d5edd5;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#sidebar .new-menu .new-menu-link:last-child {
+    margin-bottom: 0px;
+}
+
+#sidebar .new-menu .new-menu-link:hover {
+    background: #d5edd5;
+    color: #418040;
+}
+
 #content #user_intro {
     border-radius: 2px;
     padding: 15px 20px;
@@ -372,6 +410,46 @@
 #content #overview-plans .empty-table .btn:hover {
     color: #418040;
     background: white;
+}
+
+#content #overview-plans tr td.edit {
+    color: #418040;
+    text-transform: lowercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#content #overview-plans div.plan-info {
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    background: white;
+    display: none;
+    z-index: 10;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#content #overview-plans div.plan-info:after {
+    content: "";
+    display: block; /* reduce the damage in FF3.0 */
+    position: absolute;
+    top: -15px;
+    left: 50px;
+    width: 0;
+    border-width: 0px 15px 10;
+    border-style: solid;
+    border-color: #f3961c transparent;
+}
+
+#content #overview-plans div.plan-info .inner {
+    position: relative;
+    box-sizing: border-box;
+}
+
+#content #overview-plans div.plan-info.show {
+    display: block;
 }
 
 .sub-cat-title {

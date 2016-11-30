@@ -145,7 +145,7 @@ echo "<table width=1>";
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Projects (DW's Copied Header)</title>
+		<title>Projects</title>
 		<link href="../helpers/header_footer.css" type="text/css" rel="stylesheet" />
 		<link href="../helpers/splash.css" type="text/css" rel="stylesheet" />
 		<link href="styles.css" type="text/css" rel="stylesheet" />

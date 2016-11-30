@@ -32,6 +32,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="../helpers/globals.js" type="text/javascript"></script>
 
+        <script type="text/javascript">
+            // focus the username text field on page load
+            $(document).ready(function() {
+                $("[name=username]").focus();
+            })
+        </script>
+
         <?php if (isset($error)) { ?>
             <script type="text/javascript">
                 alert("Incorrect Username/Password!");
